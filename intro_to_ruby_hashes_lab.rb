@@ -9,14 +9,25 @@ def actor
   }
 end
 
-def monopoly
+def monopoly 
+
+#The key should be :railroads and the value should be an empty hash" do
+  
 	monopoly = { 
-	  :railroad =>  
+	  :railroad => {}
 	  }
 end
 
 def monopoly_wih_second_tier 
+  #  it "sets the first key of the :railroads hash to a symbol, :pieces, whose value is the integer 4" do
   monopoly = {
+     :railroads => 
+        :pieces => 4,
+        :names => {}
+        :rent_in_dollars => {}
+        
+        # it "sets the second key of the :railroads hash to a symbol, :names, whose value is an empty hash" do
+        # it "sets the third key of the :railroads hash to a symbol, :rent_in_dollars, whose value is an empty hash " do
   }
 end
  
@@ -33,10 +44,10 @@ def monopoly_with_third_tier
         }
         :names =>,
         {
-          :reading_railroad =>
-          :pennsylvania_railroad =>
-          :b_and_o_railroad =>
-          :shortline =>
+          :reading_railroad => {}
+          :pennsylvania_railroad => {}
+          :b_and_o_railroad => {}
+          :shortline => {}
     }
 end
  
@@ -53,10 +64,6 @@ def monopoly_with_fourth_tier
           :four_pieces_owned=>200
         },
         :names =>
-        
-      
-        
-        
          { 
            :reading_railroad =>
           {
@@ -72,7 +79,7 @@ def monopoly_with_fourth_tier
           },
           :shortline => 
           {
-             "mortgage_value" =>"$800"  
+             "mortgage_value" =>"$800"
           }
 end 
  
