@@ -1,5 +1,5 @@
-def working_with_hashes
-   new_hash = {}
+def new_hash 
+  {}
 end
   
 
@@ -9,12 +9,16 @@ def actor
   }
 end
 
-def monopoly 
-	monopoly = { 
-	  :railroad => {} 
-	  }
+
+def monopoly
+  monopoly = {
+    railroads: {}
+  }
 end
-def monopoly_wih_second_tier 
+
+
+
+def monopoly_with_second_tier 
    monopoly = {
      :railroads => {
         :pieces => 4,
@@ -28,7 +32,7 @@ end
 def monopoly_with_third_tier  
     
    	monopoly = { 
-      :railroads =>  {
+      :railroads =>  { 
         :pieces => 4,
         :rent_in_dollars => {
           :one_piece_owned => 25,
